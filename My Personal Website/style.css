@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ header{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background1.jpg);
+     height: 260vh;
+     background-size: cover;
+     background-position: center;
+ }
+ ul{
+     float: right;
+     list-style: none;
+     margin-top: 25px;
+ }
+ ul li{
+     display: inline-block;
+ }
+ ul li a{
+     text-decoration: none;
+     color: wheat;
+     padding: 5px 20px;
+     border: 1px solid;
+     transition: 0.6s;
+     margin: 10px;
+ 
+ }
+ ul li a:hover{
+     background-color: wheat;
+     color: saddlebrown;
+ }
+ .logo img{
+     float: left;
+     width: 160px;
+     height: 100px;
+     margin-top: 15px;
+ }
+ .main{
+     max-width: 1200px;
+     margin: auto;
+ }
+ .title{
+     position: absolute;
+     top: 40%;
+     left: 35%;
+     transform: translate(-50%;-50%);
+ }
+ .title h1{
+     font-family: sans-serif;
+     color: wheat;
+     font-size: 70px;
+ }
+ .title h2{
+     font-family: sans-serif;
+     font-weight: 500;
+     color: wheat;
+     font-size: 17px;
+     margin-top: 55px;
+     margin-left: 370px;
+ }
+ .titleBIO{
+     position: absolute;
+     top: 23%;
+     left: 15%;
+     transform: translate(-50%;-50%);
+     margin-left: 100px;
+     font-size: 70px;
+     text-align:center;
+ 
+ }
+ .gmbr10 img{
+     width: 230px;
+     height: 280px;
+     margin-left: 26px;
+     border-radius: 10px;
+     margin: 120px;
+ 
+ }
+ .titleBIO h1{
+     font-family: sans-serif;
+     color: wheat;
+     font-size: 60px;
+ }
+ .titleBIO h2{
+     font-family: sans-serif;
+     font-weight: 500;
+     color: wheat;
+     font-size: 17px;
+     margin-bottom: 50px;
+     margin-top: -70px;
+    
+ }
+ .th,td{
+     text-align: center;
+     padding: 30px;
+ }
+ 
+ tr :nth-child(even)
+ {
+    background-color: saddlebrown;
+ }
+ 
+ tr :nth-child(odd)
+ {
+    background-color: saddlebrown;
+ }
+ .titleEXP{
+     position: absolute;
+     top: 23%;
+     left: 4%;
+     transform: translate(-50%;-50%);
+     margin-left:  5px;
+     font-size: 50px;
+     text-align:center;
+ }
+ .titleEXP h1{
+     font-family: sans-serif;
+     color: wheat;
+     font-size: 60px;
+ }
+ .titleEXP h2{
+     font-family: sans-serif;
+     font-weight: 500;
+     color: wheat;
+     font-size: 20px;
+     margin-top: 65px;
+     margin-left: 200px;
+     margin-right: 150px;
+ }
+ .th,td{
+     text-align: center;
+     padding: 30px;
+ }
+ 
+ tr :nth-child(even)
+ {
+    background-color: saddlebrown;
+ }
+ 
+ tr :nth-child(odd)
+ {
+    background-color: saddlebrown;
+ 
+ }
+ .gmbr11 img{
+     float: left;
+     width: 150px;
+     height: 150px;
+     margin-left: 267px;
+     border-radius: 80px;
+     margin-top: 100px;
+ }
+ .gmbr12 img{
+     float: left;
+     width: 150px;
+     height: 150px;
+     margin-left: 160px;
+     border-radius: 80px;
+ }
+ .gmbr13 img{
+     float: right;
+     width: 150px;
+     height: 150px;
+     margin-right: 230px;
+     border-radius: 80px;
+ }
+ .titleEDU{
+     position: absolute;
+     top: 23%;
+     left: 20%;
+     transform: translate(-50%;-50%);
+     margin-left:  40px;
+     font-size: 30px;
+     color: wheat;
+     text-align:center;
+ }
+ .titleEDU h1{
+     font-family: sans-serif;
+     color: wheat;
+     font-size: 60px;
+ }
+ .titleEDU h2{
+     font-family: sans-serif;
+     font-weight: 500;
+     color: wheat;
+     font-size: 20px;
+     margin-top: 65px;
+     margin-left: 0px;
+     line-height: 1.5;
+ }
+ .gmbr14 img{
+     width: 170px;
+     height: 150px;
+     margin-left: 8px;
+     border-radius: 100px;
+     margin-top: 60px;
+ }
+ .gmbr15 img{
+     width: 150px;
+     height: 150px;
+     margin-left: 8px;
+     margin-top: 80px;
+ }
+ .gmbr16 img{
+     width: 150px;
+     height: 150px;
+     margin-left: 8px;
+     margin-top: 80px;
+ }
+ .gmbr17 img{
+     width: 300px;
+     height: 150px;
+     margin-left: 8px;
+     margin-top: 80px;
+ }
+ .titleFAM{
+     margin-top: 0px;
+     position: absolute;
+     top: 23%;
+     left: 0%;
+     transform: translate(-50%;-50%);
+     margin-left:  190px;
+     text-align:center;
+ }
+ .titleFAM h1{
+     font-family: sans-serif;
+     color: wheat;
+     font-size: 60px;
+     
+ }
+ .titleFAM h2{
+     font-family: sans-serif;
+     font-weight: 500;
+     color: wheat;
+     font-size: 22px;
+     margin-top: 65px;
+     line-height: 1.5;
+ }
+ .titleGALL{
+     position: absolute;
+     top: 23%;
+     left: 28%;
+     transform: translate(-50%;-50%);
+     font-size: 30px;
+     color: wheat;
+     text-align:center;
+
+ }
+
+ .mySlidesfade{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
+
+ }
